@@ -1,0 +1,7 @@
+app:
+    build: .
+    #image: asdlfkj31h/debian-novnc
+    ports:
+    - 5901:5901
+    - 6901:6901
+    command: /usr/bin/xeyes
