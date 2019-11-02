@@ -24,6 +24,7 @@ WORKDIR $HOME
 
 
 ## Prepare Debian
+RUN dpkg --add-architecture i386 
 RUN apt-get update
 #RUN apt-get upgrade
 RUN apt-get -y install wget
