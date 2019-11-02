@@ -1,6 +1,6 @@
 app:
-    build: .
-    #image: asdlfkj31h/debian-novnc
+    #build: .
+    image: asdlfkj31h/debian-novnc:0.1
     ports:
     - 5901:5901
     - 6901:6901
