@@ -1,4 +1,4 @@
-FROM debian:buster-slim
+FROM debian:buster
 
 MAINTAINER Gerolf Ziegenhain <gerolf.ziegenhain@gmail.com>
 
