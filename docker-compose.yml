@@ -1,6 +1,6 @@
 app:
     build: .
-    #image: asdlfkj31h/debian-novnc:0.1
+    image: asdlfkj31h/debian-novnc:0.2
 #    environment:
 #    - VNC_PW="geheim"
     ports:
