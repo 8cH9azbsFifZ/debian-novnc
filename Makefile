@@ -1,6 +1,6 @@
+VER=0.2
 build:
-	docker build . -t debian-novnc
-	docker build . -t asdlfkj31h/debian-novnc:0.2
+	docker build . -t asdlfkj31h/debian-novnc:${VER} debian-novnc
 
 push:
-	docker push asdlfkj31h/debian-novnc:0.2
+	docker push asdlfkj31h/debian-novnc:${VER}
